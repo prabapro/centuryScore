@@ -1,0 +1,310 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    font-size: 1em;
+}
+
+/*Global*/
+section {
+    padding: 6.5rem 0;
+    min-height: 100vh; /*vh - viewport height*/
+}
+
+section h2 {
+    padding: 0 0 1em 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+section h3 {
+    margin: 25vh auto;
+    color: #cfcfcf61;
+    font-size: 3em;
+}
+
+.cust-badge {
+    padding: 0.6em 0.75em;
+    font-size: 0.9em;
+    margin: 0.3em 0.1em;
+    text-transform: uppercase;
+}
+
+.cust-header {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.cust-header-body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95em;
+    padding-top:0.5em;
+}
+
+.custom-modal-footer {
+    margin: auto;
+    border-top: none;
+    padding: 2.2em 0 3em;
+}
+
+.modal-backdrop {
+    opacity: 0.8 !important;
+}
+
+/*Nav Bar*/
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+/*jumbotron*/
+.jumbotron {
+    background: url(../img/header-min.png);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.australia{
+    background: url(../img/aus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.qatar{
+    background: url(../img/qatar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron-content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Mouse animation*/
+
+.mouse {
+    max-width: 1.2em;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.scroll {
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+    animation-iteration-count: infinite;
+    transform-origin: 50% 20.5px;
+    will-change: transform;
+}
+
+.scroll-link {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes scroll {
+
+    0%, 20% {
+        transform: translateY(0) scaleY(1);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(36px) scaleY(2);
+        opacity: 0.01;
+    }
+
+}
+
+.content {
+    min-height: 100vh;
+    max-width: 28rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+/*Cards*/
+.card {
+    margin-top: 3em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    font-size: 0.8em;
+}
+
+.card:hover,
+.cust-team:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cust-card {
+    padding: 2em;
+    border-radius: inherit;
+}
+
+.featured{
+    background-image: url(../img/nodes.png), linear-gradient(to bottom, #ec008c, #fc6767);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+.cust-featured-header{
+    font-family: 'Monoton', cursive;
+    font-size: 2.4em;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+
+.cust-featured-body{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top:1em;
+}
+
+.cust-card-title {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.card h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.program-location {
+    background: #3a0838;
+    color: #fff;
+}
+
+.program-duration {
+    background: #222f3e;
+    color: #fff;
+}
+
+.program-price {
+    background: #115c69;
+    color: #fff;
+}
+
+.cust-fa {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/*Modal*/
+.cust-modal-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.cust-modal-title-sub {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 2em 0 1em 0;
+}
+
+.cust-modal-body {
+    font-size: 0.9em;
+    text-align: left;
+    margin: 2em 0;
+}
+
+.cust-modal-body ul {
+    padding: 1em 0 1em 18px;
+}
+
+.cust-modal-body li {
+    padding: 0.2em 0;
+    font-size: 0.9em;
+}
+
+/*Team*/
+.cust-team {
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+.cust-team-image img {
+    max-width: 50%;
+    margin: auto;
+    border: 0.2em solid #34495e;
+    padding: 5px;
+    margin-top: 3em;
+}
+
+.cust-team-name {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 700;
+    background-color: #34495e;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.cust-team-title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border-bottom: 1px dashed #ccc;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.cust-team-text {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.cust-font-awesome-class {
+    margin-top: 2.5em;
+}
+
+.cust-font-awesome-class a {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    padding: 0.5em;
+}
+
+.cust-font-awesome-class a:hover {
+    color: red;
+}
