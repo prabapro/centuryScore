@@ -1,4 +1,4 @@
-## Century Mind
+## Century Score
 
 Using Bootstrap 4
 
