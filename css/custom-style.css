@@ -31,13 +31,13 @@ section h3 {
 .cust-header {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: 700;
 }
 
 .cust-header-body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.95em;
+    font-size: 1em;
     padding-top:0.5em;
 }
 
@@ -166,6 +166,17 @@ section h3 {
     border-radius: inherit;
 }
 
+.cust-card-img-overlay{
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    height: 10rem;
+    display: block;
+    vertical-align: middle;
+    margin: 10% auto;
+}
+
 .featured{
     background-image: url(../img/nodes.png), linear-gradient(to bottom, #ec008c, #fc6767);
     background-blend-mode: soft-light;
@@ -186,7 +197,7 @@ section h3 {
 }
 
 .cust-card-title {
-    font-weight: 100;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 1.2em;
 }
@@ -195,7 +206,6 @@ section h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 1.4em;
-    font-weight: 700;
 }
 
 .program-location {
@@ -218,6 +228,10 @@ section h3 {
     color: rgba(255, 255, 255, 0.4);
 }
 
+.cust-fa-program{
+    font-size: 3em;
+    color: #dc3545ba;
+}
 /*Modal*/
 .cust-modal-title {
     font-family: 'Montserrat', sans-serif;
@@ -307,4 +321,10 @@ section h3 {
 
 .cust-font-awesome-class a:hover {
     color: red;
+}
+
+.cust-facilitator{
+    margin: 0 auto;
+    display: block;
+    width: 10rem;
 }
