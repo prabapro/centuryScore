@@ -10,16 +10,6 @@ section {
     min-height: 100vh; /*vh - viewport height*/
 }
 
-section h2 {
-    padding: 0 0 1em 0;
-}
-
-section h3 {
-    margin: 25vh auto;
-    color: #cfcfcf61;
-    font-size: 3em;
-}
-
 .cust-badge {
     padding: 0.6em 0.75em;
     font-size: 0.9em;
@@ -30,14 +20,14 @@ section h3 {
 .cust-header {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 2.7em;
+    font-size: 2.35em;
     font-weight: 700;
 }
 
 .cust-header-body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    padding-top:0.5em;
+    padding-top: 0.5em;
 }
 
 .custom-modal-footer {
@@ -74,13 +64,13 @@ section h3 {
     border-radius: 0;
 }
 
-.australia{
+.australia {
     background: url(../img/aus.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.qatar{
+.qatar {
     background: url(../img/qatar.jpg);
     background-position: center;
     background-size: cover;
@@ -94,7 +84,6 @@ section h3 {
 }
 
 /*Mouse animation*/
-
 .mouse {
     max-width: 1.2em;
     width: 100%;
@@ -119,8 +108,8 @@ section h3 {
 }
 
 @keyframes scroll {
-
-    0%, 20% {
+    0%,
+    20% {
         transform: translateY(0) scaleY(1);
     }
 
@@ -143,9 +132,8 @@ section h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
 }
-
 
 /*Cards*/
 .card {
@@ -165,10 +153,11 @@ section h3 {
     border-radius: inherit;
 }
 
-.cust-card-height{
-	height: 500px;
+.cust-card-height {
+    height: 500px;
 }
-.cust-card-img-overlay{
+
+.cust-card-img-overlay {
     text-align: center;
     color: #fff;
     font-size: 1.4em;
@@ -179,23 +168,23 @@ section h3 {
     margin: 10% auto;
 }
 
-.featured{
+.featured {
     background-image: url(../img/nodes.png), linear-gradient(to bottom, #ec008c, #fc6767);
     background-blend-mode: soft-light;
     background-size: cover;
 }
 
-.cust-featured-header{
+.cust-featured-header {
     font-family: 'Monoton', cursive;
     font-size: 2.4em;
     line-height: 1.3em;
     text-transform: uppercase;
 }
 
-.cust-featured-body{
+.cust-featured-body {
     font-size: 1em;
     text-transform: uppercase;
-    margin-top:1em;
+    margin-top: 1em;
 }
 
 .cust-card-title {
@@ -230,10 +219,11 @@ section h3 {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.cust-fa-program{
+.cust-fa-program {
     font-size: 3em;
     color: #dc3545ba;
 }
+
 /*Modal*/
 .cust-modal-title {
     font-family: 'Montserrat', sans-serif;
@@ -324,46 +314,95 @@ section h3 {
     color: red;
 }
 
-.cust-facilitator{
+.cust-facilitator {
     margin: 0 auto;
     display: block;
     width: 10rem;
 }
 
-.card-footer{
-	padding:0.75em;
+.card-footer {
+    padding: 0.75em;
 }
 
-.featured-program img{
-	border-radius: inherit;
+.featured-program img {
+    border-radius: inherit;
 }
 
-.card-overlay-button{
-	display: block;
-	top:75%;
+.card-overlay-button {
+    display: block;
+    top: 75%;
 }
 
-.cust-modules li{
-	padding-top: 0.70em;
+.cust-modules li {
+    padding-top: 0.70em;
 }
-#contact{
-    background-color: #c2c8ce7a;
+
+#contact {
+    color: #0e0e0ec7;
     font-size: 0.95em;
+    padding-bottom: 0.95em;
+    background: #0cebeb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.cust-address-card{
-    margin:0 1em 1em 1em;
-    padding:1.5em;
+.cust-address-card {
+    margin: 0 1em 1em 1em;
+    padding: 1.5em;
     vertical-align: top;
     font-size: 1.1em;
 }
 
-#contact h2{
-    font-size: 1.3em;
+#contact h1 {
+    font-size: 2.35em;
     font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
 }
 
-.cust-phone{
+#contact h2 {
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.cust-phone {
     display: block;
-    padding-top:1em;
+    padding-top: 1em;
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.social {
+    color: #0000007a;
+    -webkit-transform: scale(0.8);     /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+#social-fb:hover {
+    color: #3B5998;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+}
+
+#social-li:hover {
+    color: #0c8599;
+}
+
+#social-em:hover {
+    color: #f39c12;
 }
