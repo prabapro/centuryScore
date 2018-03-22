@@ -346,3 +346,24 @@ section h3 {
 .cust-modules li{
 	padding-top: 0.70em;
 }
+#contact{
+    background-color: #c2c8ce7a;
+    font-size: 0.95em;
+}
+
+.cust-address-card{
+    margin:0 1em 1em 1em;
+    padding:1.5em;
+    vertical-align: top;
+    font-size: 1.1em;
+}
+
+#contact h2{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.cust-phone{
+    display: block;
+    padding-top:1em;
+}
