@@ -456,3 +456,9 @@ section {
     margin-bottom: 0;
     padding: 5rem 0;
 }
+
+.event-who p{
+    line-height: 1.5em;
+    margin-bottom: 4em;
+    font-size: 0.825em;
+}
