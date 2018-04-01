@@ -404,3 +404,43 @@ section {
 .card-facilitator{
     background-color: #653852;
 }
+
+.event{
+    margin:2.5rem 0;
+    padding:2.5rem 0;
+}
+
+.event h2{
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #653852;
+    color: #653852;
+}
+
+.event h3{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #653852;
+}
+
+.event p{
+    margin: 0.5em 0;
+    font-size: 0.85em;
+}
+
+.event li{
+    font-size: 0.80em;
+    padding:0 0 1em 0;
+}
+
+.event-who{
+    background-color: #653852;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 5rem 0;
+}
