@@ -2,11 +2,11 @@
     outline: none;
 }
 
-a{
+a {
     color: #ffc107;
 }
 
-a:hover{
+a:hover {
     color: inherit;
 }
 
@@ -401,7 +401,6 @@ section {
     -o-transition-duration: 0.5s;
 }
 
-
 /*Event Pages*/
 .event-qatar {
     background: url(../img/qatar.jpg);
@@ -409,55 +408,59 @@ section {
     height: auto;
 }
 
-.facilitator-table img{
+.facilitator-table img {
     width: 40rem;
 }
 
-.card-facilitator{
+.card-facilitator {
     background-color: #653852;
 }
 
-.event{
-    margin:2.5rem 0;
-    padding:2.5rem 0;
+.event {
+    margin: 2.5rem 0;
+    padding: 2.5rem 0;
 }
 
-.event h2{
+.event h2 {
     font-size: 2.2em;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
+    margin: 1em 0;
+    padding-bottom: 1.4em;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     border-bottom: 1px solid #653852;
     color: #653852;
 }
 
-.event h3{
-    font-size: 1.2em;
-    margin-bottom: 1em;
+.event h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 1.5em 0;
     font-family: 'Montserrat', sans-serif;
     color: #653852;
 }
 
-.event p{
+.event p {
     margin: 0.5em 0;
     font-size: 0.85em;
 }
 
-.event li{
-    font-size: 0.80em;
-    padding:0 0 1em 0;
+.event li {
+    font-size: 0.85em;
+    padding: 0 0 1em 0;
+    list-style-type: square;
 }
 
-.event-who{
+
+.event-who {
     background-color: #653852;
     color: #fff;
     margin-bottom: 0;
     padding: 5rem 0;
 }
 
-.event-who p{
+.event-who p {
     line-height: 1.5em;
     margin-bottom: 4em;
     font-size: 0.825em;
