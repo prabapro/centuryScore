@@ -408,13 +408,17 @@ section {
     height: auto;
 }
 
-.facilitator-table img {
-    width: 40rem;
-}
-
 .card-facilitator {
     background-color: #653852;
+    font-size: 1em;
+    padding:4em;
 }
+
+.card-facilitator img {
+    width: 10rem;
+    margin-bottom: 2em;
+}
+
 
 .event {
     margin: 2.5rem 0;
