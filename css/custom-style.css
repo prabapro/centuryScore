@@ -414,6 +414,12 @@ section {
     height: auto;
 }
 
+.event-singapore {
+    background: url(../img/singapore.jpg);
+    background-position: center;
+    height: auto;
+}
+
 .card-facilitator {
     background-color: #653852;
     font-size: 1em;
