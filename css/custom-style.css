@@ -408,6 +408,12 @@ section {
     height: auto;
 }
 
+.event-australia {
+    background: url(../img/aus.jpg);
+    background-position: center;
+    height: auto;
+}
+
 .card-facilitator {
     background-color: #653852;
     font-size: 1em;
