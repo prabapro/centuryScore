@@ -89,6 +89,12 @@ section {
     background-size: cover;
 }
 
+.singapore {
+    background: url(../img/singapore.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .jumbotron-content {
     min-height: 100%;
     display: flex;
